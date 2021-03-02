@@ -1,0 +1,25 @@
+#app2 {
+  border: 1px solid yellow;
+  width: 50vw;
+  height: 50vh;
+}
+#app2 .tab-bar {
+  display: flex;
+}
+#app2 .tab-bar > li {
+  border: 3px solid red;
+  width: 50%;
+}
+#app2 .tab-bar > li.selected {
+  border: 3px solid red;
+  width: 50%;
+  background: rgb(253, 221, 155);
+}
+#app2 .tab-content > li {
+  border: 1px solid blue;
+  display: none;
+}
+#app2 .tab-content > li.active {
+  border: 1px solid blue;
+  display: block;
+}

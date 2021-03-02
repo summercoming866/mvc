@@ -1,0 +1,21 @@
+#app3{
+    border:1px solid skyblue;
+    width: 50vw;
+    height:50vh;
+}
+#app3 .square{
+    margin-top:10px;
+    margin-left: 10px;
+    border:1px solid pink;
+    width: 10vw;
+    height:10vh;
+    transition: transform 1s;
+}
+#app3 .square.active{
+    margin-top:10px;
+    margin-left: 10px;
+    border:1px solid pink;
+    width: 10vw;
+    height:10vh;
+    transform:translateX(15vw)
+}

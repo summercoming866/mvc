@@ -1,0 +1,100 @@
+#app1{
+    border:1px solid red;
+    width: 50vw;
+    height: 50vh;
+    
+}
+#app1 .output{
+    
+}
+#app1 .actions{
+    
+}
+
+#app2 {
+  border: 1px solid yellow;
+  width: 50vw;
+  height: 50vh;
+}
+#app2 .tab-bar {
+  display: flex;
+}
+#app2 .tab-bar > li {
+  border: 3px solid red;
+  width: 50%;
+}
+#app2 .tab-bar > li.selected {
+  border: 3px solid red;
+  width: 50%;
+  background: rgb(253, 221, 155);
+}
+#app2 .tab-content > li {
+  border: 1px solid blue;
+  display: none;
+}
+#app2 .tab-content > li.active {
+  border: 1px solid blue;
+  display: block;
+}
+
+#app3{
+    border:1px solid skyblue;
+    width: 50vw;
+    height:50vh;
+}
+#app3 .square{
+    margin-top:10px;
+    margin-left: 10px;
+    border:1px solid pink;
+    width: 10vw;
+    height:10vh;
+    transition: transform 1s;
+}
+#app3 .square.active{
+    margin-top:10px;
+    margin-left: 10px;
+    border:1px solid pink;
+    width: 10vw;
+    height:10vh;
+    transform:translateX(15vw)
+}
+#app4{
+    border:1px solid purple;
+    width: 50vw;
+    height:50vh;
+}
+@keyframes change{
+0%{
+background: red;
+}
+100%{
+    background: black;
+}
+}
+#app4 .circle{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border:1px solid red;
+}
+#app4 .circle.active{
+    animation:change 1s infinite alternate linear;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+*::before,*::after{
+    box-sizing:border-box;
+}
+ol,ul,li{list-style: none;}
+
+body >.page{
+    display:flex;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+}
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
